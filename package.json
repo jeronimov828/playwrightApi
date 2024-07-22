@@ -1,0 +1,23 @@
+{
+  "name": "cm-sigo-acuerdos-automatizacion-api-pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "RunTests": "npx cucumber-js -p test_api --format json:report/cucumber_report.json --tags @usuarios --publish && cucumber-junit < report/cucumber_report.json > report/junitApiReport.xml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.1.0",
+    "@playwright/test": "^1.40.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "cucumber-junit": "^1.7.1",
+    "dotenv": "^16.3.1",
+    "pg-promise": "^11.5.4",
+    "playwright": "^1.40.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
