@@ -8,4 +8,4 @@ Feature: Crear un nuevo usuario
 
         Examples:
             | statusCode |
-            | 200        |
+            | 201        |
